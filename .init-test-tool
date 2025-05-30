@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/weatherdualtemp-26078-38136421/weather_dual_temp"
+}
