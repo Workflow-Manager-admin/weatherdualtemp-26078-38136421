@@ -18,3 +18,11 @@ Note that the development build is not optimized.
 To create a production build, use npm run build.
 
 webpack compiled successfully
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './WeatherDualTemp' in '/home/kavia/workspace/code-generation/weatherdualtemp-26078-38136421/weather_dual_temp/src'
+ERROR in ./src/App.js 6:0-48
+Module not found: Error: Can't resolve './WeatherDualTemp' in '/home/kavia/workspace/code-generation/weatherdualtemp-26078-38136421/weather_dual_temp/src'
+
+webpack compiled with 1 error

@@ -1,33 +1,24 @@
 import React from 'react';
 import './App.css';
+import WeatherDualTemp from './WeatherDualTemp';
 
+// PUBLIC_INTERFACE
 function App() {
   return (
-    <div className="app">
+    <div className="app weather-app-gradient-bg">
       <nav className="navbar">
         <div className="container">
           <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
             <div className="logo">
-              <span className="logo-symbol">*</span> KAVIA AI
+              <span className="logo-symbol" style={{ color: "#2196F3" }}>*</span> WeatherDualTemp
             </div>
-            <button className="btn">Template Button</button>
+            {/* Optionally place app-wide actions here */}
           </div>
         </div>
       </nav>
-
       <main>
-        <div className="container">
-          <div className="hero">
-            <div className="subtitle">AI Workflow Manager Template</div>
-            
-            <h1 className="title">weather_dual_temp</h1>
-            
-            <div className="description">
-              Start building your application.
-            </div>
-            
-            <button className="btn btn-large">Button</button>
-          </div>
+        <div className="container flex-center-main">
+          <WeatherDualTemp />
         </div>
       </main>
     </div>
